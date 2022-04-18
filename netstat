@@ -1,0 +1,2 @@
+netstat -qant 1 | find "SYN"
+netstat -an 1 | find "SYN_SENT"
